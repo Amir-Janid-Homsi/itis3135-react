@@ -629,9 +629,7 @@ export default function Hobby() {
             <footer>
             <div className="firm">
             <p>&copy; 2026 Mirrored Designs</p>
-            <Link to="/mirroreddesigns">
-            Visit Mirrored Designs
-            </Link>
+            <Link to="/mirroreddesigns">Visit Mirrored Designs</Link>
             </div>
             </footer>
             </div>
