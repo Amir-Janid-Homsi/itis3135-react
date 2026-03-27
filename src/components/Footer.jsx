@@ -28,7 +28,6 @@ export default function Footer() {
             */}
 
             <p>&copy; 2026 Mirrored Designs</p>
-
             <Link to="/mirroreddesigns">
             Visit Mirrored Designs
             </Link>
