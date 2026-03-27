@@ -1,5 +1,8 @@
+import { useEffect } from "react";
 import "../styles/inventory.css";
-
+useEffect(() => {
+    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Book Inventory";
+}, []);
 export default function Inventory() {
     return (
         <main>

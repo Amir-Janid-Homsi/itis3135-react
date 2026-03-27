@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+useEffect(() => {
+    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | C and C++ Documentation";
+}, []);
 import "../styles/instructions.css";
 
 export default function Instructions() {

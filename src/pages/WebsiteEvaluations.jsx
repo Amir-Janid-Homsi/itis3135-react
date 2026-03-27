@@ -1,3 +1,8 @@
+import { useEffect } from "react";
+import { useEffect } from "react";
+useEffect(() => {
+    document.title = "Amir Homsi's (is an) Ascened Human | ITIS 3135 | Website Evaluations Page";
+}, []);
 export default function WebsiteEvaluations() {
     return (
         <main>

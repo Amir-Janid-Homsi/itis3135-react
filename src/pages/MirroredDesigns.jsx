@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import logo from "../assets/images/logo.svg";
-
+useEffect(() => {
+    document.title = "Mirrored Designs";
+}, []);
 export default function MirroredDesigns() {
 
     useEffect(() => {

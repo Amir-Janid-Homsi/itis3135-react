@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+useEffect(() => {
+    document.title = "";
+}, []);
 export default function Crappy() {
     return (
         <div
