@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import "../styles/inventory.css";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Book Inventory";
-}, []);
 export default function Inventory() {
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Book Inventory";
+    }, []);
     return (
         <main>
         <h2 className="book-inv">Book Inventory</h2>

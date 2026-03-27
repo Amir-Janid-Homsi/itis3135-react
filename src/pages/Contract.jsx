@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Contract Page";
-}, []);
 export default function Contract() {
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Contract Page";
+    }, []);
     return (
         <main>
         <h2>Contract Page</h2>

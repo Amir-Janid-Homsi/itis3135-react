@@ -1,10 +1,10 @@
 import "../styles/cards.css";
 import { useEffect } from "react";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Energy Sigil Cards";
-}, []);
 
 export default function Cards() {
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Energy Sigil Cards";
+    }, []);
     return (
         <main>
         <h2>Energy Signs Cards</h2>

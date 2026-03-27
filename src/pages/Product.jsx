@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import "../styles/product.css";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Second Wind Monitors";
-}, []);
 export default function Product() {
+
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Second Wind Monitors";
+    }, []);
     const scrollTo = (id) => {
         document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
     };

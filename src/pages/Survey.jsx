@@ -1,9 +1,9 @@
 import "../styles/survey.css";
 import { useEffect } from "react";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Ascended Academy Intake Form";
-}, []);
 export default function Survey() {
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Ascended Academy Intake Form";
+    }, []);
     return (
         <main className="survey-page">
 

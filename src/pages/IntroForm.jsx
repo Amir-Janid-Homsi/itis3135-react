@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-useEffect(() => {
-    document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Introduction Form";
-}, []);
 export default function IntroForm() {
+    useEffect(() => {
+        document.title = "Amir Homsi's (is an) Ascended Human | ITIS3135 | Introduction Form";
+    }, []);
     useEffect(() => {
         // Load your original JS scripts exactly as-is
         const scriptSources = [
