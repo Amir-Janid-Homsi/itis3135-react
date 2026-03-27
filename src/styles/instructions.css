@@ -4,7 +4,7 @@
  * ================================ */
 
 :root {
-    --nav-width: 279px;
+    --nav-width: 320px;
     --content-max: 980px;
     --radius: 8px;
     --spacing: 28px;
@@ -25,37 +25,36 @@
  * ================================ */
 
 #navbar {
-    position: sticky;
-    top: 0; /* sticks under the header include */
-    width: var(--nav-width);
-    height: fit-content;
-    max-height: 100vh;
-    overflow-y: auto;
+position: sticky;
+top: 0; /* sticks under the header include */
+width: var(--nav-width);
+height: fit-content;
+max-height: 100vh;
+overflow-y: auto;
 
-    /* Light‑mode friendly sidebar color */
-    background-color: #c8c4c1;
-    padding-top: 20px;
+/* Light‑mode friendly sidebar color */
+background-color: #c8c4c1;
+padding-top: 20px;
 }
 
 #navbar .nav-title {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    padding: 0 24px 20px 24px;
+font-family: "Ubuntu", sans-serif;
+font-size: 1.4rem;
+font-weight: 700;
+padding: 0 24px 20px 24px;
 }
 
 #navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 
 #navbar a {
-    display: block;
-    padding: 14px 28px;
-    text-decoration: none;
-    transition: 0.18s ease;
-    color: #006b63;
+display: block;
+padding: 14px 28px;
+text-decoration: none;
+transition: 0.18s ease;
 }
 
 /* ================================
@@ -63,15 +62,16 @@
  * ================================ */
 
 #main-doc {
-    margin-left: 24px;
-    padding: 40px;
-    max-width: var(--content-max);
+margin-left: 24px;
+padding: 40px;
+max-width: var(--content-max);
 }
 
 .main-section {
     padding-bottom: 24px;
     margin-bottom: 32px;
 }
+
 
 h2 {
     font-family: "Ubuntu", sans-serif;
@@ -111,20 +111,20 @@ code {
     }
 
     #navbar {
-        width: 100%;
-        max-height: none;
+    width: 100%;
+    max-height: none;
     }
 
     #main-doc {
-        margin-left: 0;
-        margin-top: 20px;
-        padding: 28px;
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 28px;
     }
 }
 
 @media only screen and (max-width: 420px) {
     #main-doc {
-        padding: 20px;
+    padding: 20px;
     }
 
     code {

@@ -1,48 +1,48 @@
-.survey-page .survey-container {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 20px;
+
+#title {
+text-align: center;
+margin-bottom: 10px;
 }
 
-.survey-page #title {
-  text-align: center;
-  margin-bottom: 10px;
+#description {
+text-align: center;
+margin-bottom: 30px;
+font-style: italic;
 }
 
-.survey-page #description {
-  text-align: center;
-  margin-bottom: 30px;
-  font-style: italic;
+#survey-form {
+display: flex;
+flex-direction: column;
+gap: 15px;
 }
 
-.survey-page #survey-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+#survey-form input,
+#survey-form select,
+#survey-form textarea {
+padding: 8px;
+border: 1px solid #04080f;
+background-color: #ffffff;
+font-size: 1rem;
 }
 
-.survey-page #survey-form input,
-.survey-page #survey-form select,
-.survey-page #survey-form textarea {
-  padding: 8px;
-  border: 1px solid #04080f;
-  background-color: #ffffff;
-  font-size: 1rem;
+#survey-form textarea {
+min-height: 120px;
 }
 
-.survey-page #survey-form textarea {
-  min-height: 120px;
+#email {
+width: 100%;
 }
 
-.survey-page #submit {
-  padding: 12px;
-  background-color: #006b63;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
+
+#submit {
+padding: 12px;
+background-color: #006b63;
+color: white;
+border: none;
+cursor: pointer;
+font-weight: bold;
 }
 
-.survey-page #submit:hover {
-  background-color: #00423d;
+#submit:hover {
+background-color: #00423d;
 }
