@@ -4,6 +4,7 @@ import amirFace from "../assets/images/amir-mgs4-face.jpg";
 import finishStart from "../assets/images/finish-start-scale.png";
 import lShape from "../assets/images/l-shaped-setup.png";
 import fourHeart from "../assets/images/four-heart.png";
+import { Link } from "react-router-dom";
 
 export default function Hobby() {
     const [activeSection, setActiveSection] = useState("what");
@@ -626,14 +627,12 @@ export default function Hobby() {
             </section>
             </main>
 
-      <footer>
-        <div className="firm">
-          <p>&copy; 2026 Mirrored Designs</p>
-          <p>
-            <a href="mirroreddesigns.sh/mirroreddesigns.html">Visit Mirrored Designs</a>
-          </p>
-        </div>
-      </footer>
-    </div>
-  );
+            <footer>
+            <div className="firm">
+            <p>&copy; 2026 Mirrored Designs</p>
+            <Link to="/mirroreddesigns">Visit Mirrored Designs</Link>
+            </div>
+            </footer>
+            </div>
+    );
 }
