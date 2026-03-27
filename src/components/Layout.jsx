@@ -9,7 +9,7 @@ export default function Layout() {
 
     const isSnowflake =
     pathname === "/crappy" ||
-    pathname === "/hobby" ||
+    pathname === "/Hobby" ||
     pathname === "/mirroreddesigns";
 
     return (
