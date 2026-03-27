@@ -2,7 +2,7 @@ import "../styles/survey.css";
 
 export default function Survey() {
     return (
-        <main className="survey-container">
+        <main className="survey-page survey-container">
 
         <h1 id="title">Ascended Academy Initiate Evaluation</h1>
         <p id="description">
