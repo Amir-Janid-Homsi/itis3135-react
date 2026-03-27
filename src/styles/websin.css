@@ -1,0 +1,30 @@
+/* Completely isolate this page from ALL global styles */
+.websin-raw,
+.websin-raw * {
+    all: unset;
+    display: revert;
+}
+
+/* Restore basic HTML layout so the page isn't unusable */
+.websin-raw {
+    all: revert;
+    background: white;
+    color: black;
+    padding: 1rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    border: 2px solid black;
+}
+
+/* Restore default link colors */
+.websin-raw a:link {
+    color: blue;
+}
+
+.websin-raw a:visited {
+    color: purple;
+}
+
+.websin-raw a:active {
+    color: red;
+}

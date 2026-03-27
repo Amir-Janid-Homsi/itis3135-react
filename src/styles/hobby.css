@@ -1,0 +1,232 @@
+/* -----------------------------------------
+ *  GLOBAL RETRO-FUTURISTIC THEME (scoped)
+ *---------------------------------------- */
+.hobby-page {
+    --bg-main: #0a0a0f;
+    --text-main: #e6e6e6;
+    --accent: #f5ff3a;
+    --text-muted: #b3b3b3;
+    --card-bg: #14141f;
+
+    background: var(--bg-main);
+    color: var(--text-main);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding-bottom: 3rem;
+}
+
+.hobby-page * {
+    box-sizing: border-box;
+}
+
+/* -----------------------------------------
+ *  HEADER
+ *---------------------------------------- */
+.hobby-page header {
+    border-bottom: 2px solid var(--accent);
+    padding: 1rem 1.5rem 0.75rem;
+    background: radial-gradient(circle at top, #181830 0, #0a0a0f 55%);
+}
+
+.hobby-page h1 {
+    margin: 0 0 0.5rem;
+    font-size: 1.9rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px var(--accent), 0 0 12px var(--accent);
+}
+
+/* -----------------------------------------
+ *  NAVIGATION
+ *---------------------------------------- */
+.hobby-page nav {
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.hobby-page nav a {
+    color: var(--accent);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+}
+
+.hobby-page nav a:hover {
+    text-shadow: 0 0 6px var(--accent), 0 0 12px var(--accent);
+}
+
+.hobby-page nav .divider {
+    color: var(--accent);
+    padding: 0 0.35rem;
+}
+
+/* -----------------------------------------
+ *  MAIN CONTENT
+ *---------------------------------------- */
+.hobby-page main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 3rem;
+}
+
+.hobby-page h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 0.4rem;
+}
+
+.hobby-page h3 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hobby-page p {
+    line-height: 1.6;
+    margin: 0 0 1rem;
+}
+
+.hobby-page ul {
+    margin: 0 0 1rem 1.25rem;
+    padding: 0;
+}
+
+.hobby-page li {
+    margin-bottom: 0.4rem;
+}
+
+.hobby-page em {
+    color: var(--text-muted);
+}
+
+/* -----------------------------------------
+ *  SECTION VISIBILITY
+ *---------------------------------------- */
+.hobby-page section {
+    display: none;
+    padding: 1.5rem;
+    background: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1.5rem;
+}
+
+.hobby-page #what {
+    display: block;
+}
+
+/* -----------------------------------------
+ *  FIGURES
+ *---------------------------------------- */
+.hobby-page figure {
+    margin: 1.75rem auto 0.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #10101a;
+    border: 1px solid rgba(245, 255, 58, 0.4);
+    max-width: 100%;
+}
+
+.hobby-page figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.hobby-page figure iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 6px;
+}
+
+.hobby-page figcaption {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    color: var(--accent);
+    text-align: left;
+}
+
+.hobby-page figure + p em {
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 0.25rem;
+}
+
+/* -----------------------------------------
+ *  DETAILS / SUMMARY
+ *---------------------------------------- */
+.hobby-page details {
+    margin-top: 1rem;
+    background: #10101a;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(245, 255, 58, 0.35);
+}
+
+.hobby-page details summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hobby-page details p {
+    margin-top: 0.75rem;
+    white-space: pre-wrap;
+}
+
+/* -----------------------------------------
+ *  FOOTER
+ *---------------------------------------- */
+.hobby-page footer {
+    border-top: 1px solid var(--accent);
+    padding: 1rem 1.5rem 1.5rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hobby-page footer .validators a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 0.75rem;
+    font-size: 0.85rem;
+}
+
+.hobby-page footer .validators a:hover {
+    text-shadow: 0 0 6px var(--accent), 0 0 12px var(--accent);
+}
+
+.hobby-page footer .firm a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.hobby-page footer .firm a:hover {
+    text-shadow: 0 0 6px var(--accent), 0 0 12px var(--accent);
+}
+
+/* -----------------------------------------
+ *  RESPONSIVE
+ *---------------------------------------- */
+@media (max-width: 700px) {
+    .hobby-page header {
+        padding: 0.9rem 1rem 0.7rem;
+    }
+    .hobby-page main {
+        padding: 1.25rem 1rem 2.5rem;
+    }
+    .hobby-page section {
+        padding: 1.25rem;
+    }
+}
