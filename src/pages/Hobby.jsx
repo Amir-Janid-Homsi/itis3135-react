@@ -626,12 +626,14 @@ export default function Hobby() {
             </section>
             </main>
 
-            <footer>
-            <div className="firm">
-            <p>&copy; 2026 Mirrored Designs</p>
-            <Link to="/mirroreddesigns">Visit Mirrored Designs</Link>
-            </div>
-            </footer>
-            </div>
-    );
+      <footer>
+        <div className="firm">
+          <p>&copy; 2026 Mirrored Designs</p>
+          <p>
+            <a href="mirroreddesigns.sh/mirroreddesigns.html">Visit Mirrored Designs</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
 }
