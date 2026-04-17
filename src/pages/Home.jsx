@@ -6,8 +6,8 @@ export default function Home() {
     }, []);
     return (
         <main>
-        <h2>Course Website</h2>
-        <p>More to come!</p>
+        <h2>Home</h2>
+        <p>Feel free to check out the pages in the header, because I don't have more to say here. Everything here was for an assignment so take anything I say here under that context.</p>
         </main>
     );
 }

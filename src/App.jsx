@@ -11,9 +11,11 @@ import Product from "./pages/Product";
 import Survey from "./pages/Survey";
 import WebsiteEvaluations from "./pages/WebsiteEvaluations";
 
+
 import Hobby from "./pages/Hobby";
 import IntroForm from "./pages/IntroForm";
 import MirroredDesigns from "./pages/MirroredDesigns";
+import Slideshow from "./pages/Slideshow.jsx";
 
 export default function App() {
   return (
@@ -35,6 +37,7 @@ export default function App() {
     <Route path="hobby" element={<Hobby />} />
     <Route path="intro-form" element={<IntroForm />} />
     <Route path="mirroreddesigns" element={<MirroredDesigns />} />
+    <Route path="slideshow" element={<Slideshow />} />
 
     </Route>
     </Routes>

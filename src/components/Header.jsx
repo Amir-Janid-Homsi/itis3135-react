@@ -18,6 +18,9 @@ export default function Header() {
 
         <nav>
         <Link to="/crappy">Crappy Page</Link>{" | "}
+        <Link to="/hobby">Crappy Page</Link>{" | "}
+        <Link to="/intro-form">Crappy Page</Link>{" | "}
+        <Link to="/hobby">Crappy Page</Link>{" | "}
         </nav>
         </header>
     );
