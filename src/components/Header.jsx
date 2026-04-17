@@ -6,21 +6,21 @@ export default function Header() {
         <h1>Amir Homsi's (is an) Ascened Human | ITIS3135</h1>
 
         <nav>
-        <Link to="/">Home Page</Link>{" | "}
-        <Link to="/contract">Contract Page</Link>{" | "}
-        <Link to="/website-evaluations">Web Evaluations Page</Link>{" | "}
-        <Link to="/survey">Survey Page</Link>{" | "}
-        <Link to="/cards">Cards Page</Link>{" | "}
-        <Link to="/inventory">Inventory Page</Link>{" | "}
-        <Link to="/instructions">Instructions Page</Link>{" | "}
-        <Link to="/product">Product Page</Link>
+        <Link to="/">Home</Link>{" | "}
+        <Link to="/contract">Contract</Link>{" | "}
+        <Link to="/website-evaluations">Web Evaluations</Link>{" | "}
+        <Link to="/survey">Survey</Link>{" | "}
+        <Link to="/cards">Cards</Link>{" | "}
+        <Link to="/inventory">Inventory</Link>{" | "}
+        <Link to="/instructions">Instructions</Link>{" | "}
+        <Link to="/product">Product</Link>
         </nav>
 
         <nav>
         <Link to="/crappy">Crappy Page</Link>{" | "}
-        <Link to="/hobby">Crappy Page</Link>{" | "}
-        <Link to="/intro-form">Crappy Page</Link>{" | "}
-        <Link to="/hobby">Crappy Page</Link>{" | "}
+        <Link to="/hobby">Hobby Page</Link>{" | "}
+        <Link to="/intro-form">Intro Form</Link>{" | "}
+        <Link to="/slideshow">slideshow Page</Link>{" | "}
         </nav>
         </header>
     );

@@ -15,7 +15,7 @@ import WebsiteEvaluations from "./pages/WebsiteEvaluations";
 import Hobby from "./pages/Hobby";
 import IntroForm from "./pages/IntroForm";
 import MirroredDesigns from "./pages/MirroredDesigns";
-import Slideshow from "./pages/Slideshow.jsx";
+import Slideshow from "./pages/slideshow.jsx";
 
 export default function App() {
   return (

@@ -38,7 +38,7 @@ export default function Slideshow() {
     return (
         <div style={{ textAlign: "center" }}>
         <h1>Slideshow</h1>
-
+        <h2>for ye who likes cat photos (not me)</h2>
         <img
         src={images[index].url}
         alt="cat"
